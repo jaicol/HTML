@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color:red;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .logo {
+            width: 100px;
+        }
+
+        main {
+            display: flex;
+            padding: 20px;
+            
+        }
+    main a{
+        color:black;
+    }
+
+        aside {
+            width: 200px;
+            margin-right: 20px;
+        }
+
+        article {
+            flex: 1;
+        }
+
+        footer {
+            position:fixed;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            bottom:0;
+            width:100%
+          
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Shoe Store Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#">Sneakers</a></li>
+                <li><a href="#">Boots</a></li>
+                <li><a href="#">Sandals</a></li>
+                <li><a href="#">Dress Shoes</a></li>
+                <li><a href="#">Flats</a></li>
+            </ul>
+        </aside>
+        <article>
+            <h1>Featured Shoes</h1>
+            <div>
+                <!-- Shoe images and descriptions will go here -->
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Shoe Store</p>
+    </footer>
+</body>
+</html>
